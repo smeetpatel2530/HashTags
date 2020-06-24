@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "450298840644",
+    "firebase_url": "https://hashtags-274bc.firebaseio.com",
+    "project_id": "hashtags-274bc",
+    "storage_bucket": "hashtags-274bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450298840644:android:483a20112d535c68075e11",
+        "android_client_info": {
+          "package_name": "com.smeet.instagramhashtags"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450298840644-b0tjoufdmg1h7qd4jnk7i219vkd93gvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smeet.instagramhashtags",
+            "certificate_hash": "8eb540d388a7c03bf232e4456d5bd345d6a39314"
+          }
+        },
+        {
+          "client_id": "450298840644-7ktbquij3g2u538pdq3uju59tm2a7766.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVTZqHYg_eePf4gOjTZdXomQdQ--P13NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450298840644-7ktbquij3g2u538pdq3uju59tm2a7766.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

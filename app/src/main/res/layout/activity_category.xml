@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Most Common HashTags " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Popular " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginLeft="25dp"
+                    android:text="Art/Photography" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Family "
+                    android:textColor="#000"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Holidays/Celebrations" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Food" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag"/>
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Fashion " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Entertainment " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Nature " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView154"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Weather/Seasons" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Animals " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Urban " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag" />
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Social/People" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag"/>
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Celebrities" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag"/>
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Electronics" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag"/>
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Text Art" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag"/>
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Trave/Active/Sports" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag"/>
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Follow/Shoutout/Like/Comment" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:src="@drawable/hashtag"/>
+
+                <TextView
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:text="Others" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        </ScrollView>
+
+
+</RelativeLayout>

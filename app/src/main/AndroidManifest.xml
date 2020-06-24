@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smeet.instagramhashtags">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Truth"
+            android:parentActivityName=".Others"></activity>
+        <activity android:name=".Fitness"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".ForPartyPeople"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Lyrics"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Hijab"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Spiritual"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Colorss"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Moneys"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".AskFm"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Snapchat"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Tumblr"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Kik"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Poetry"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Quotes"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Funny"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Work"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".School"
+            android:parentActivityName=".Others"/>
+        <activity android:name=".Others"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".Shoutout"
+            android:parentActivityName=".FollowShoutoutLikeComment"/>
+        <activity android:name=".Comment"
+            android:parentActivityName=".FollowShoutoutLikeComment"/>
+        <activity android:name=".Like"
+            android:parentActivityName=".FollowShoutoutLikeComment"/>
+        <activity android:name=".Follow"
+            android:parentActivityName=".FollowShoutoutLikeComment"/>
+        <activity android:name=".FSL"
+            android:parentActivityName=".FollowShoutoutLikeComment"/>
+        <activity android:name=".FollowShoutoutLikeComment"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".Swimming"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".HealthandFitness"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".SuperBowl"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Rugby"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Volleyball"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Hockey"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Baseball"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Football"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Soccer"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Basketball"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Gymnastics"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Cheerleading"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Dance"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Running"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Sport"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Bodybuilding"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".HealthFitness"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".SkateBoarding"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Motorcycles"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Cars"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".Travel"
+            android:parentActivityName=".TravelActiveSports"/>
+        <activity android:name=".TravelActiveSports"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".Loves"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Musics"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Stuff"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Transports"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Building"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Sports"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Tattooss"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Logos"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Chars"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Animalss"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".Memes"
+            android:parentActivityName=".TextArt"/>
+        <activity android:name=".TextArt"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".Android"
+            android:parentActivityName=".Electronics"/>
+        <activity android:name=".Iphone"
+            android:parentActivityName=".Electronics"/>
+        <activity android:name=".General"
+            android:parentActivityName=".Electronics"/>
+        <activity android:name=".Electronics"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".ArianaGrande"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".DemiLovato"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".SelenaGomez"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".Rihanna"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".Drake"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".NialHoran"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".TaylorSwift"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".LiamPayne"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".JustinBieber"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".OneDirection"
+            android:parentActivityName=".Celebrities"/>
+        <activity android:name=".Celebrities"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".GoodNight"
+            android:parentActivityName=".SocialPeople"/>
+        <activity android:name=".GoodMorning"
+            android:parentActivityName=".SocialPeople"/>
+        <activity android:name=".Friends"
+            android:parentActivityName=".SocialPeople"/>
+        <activity android:name=".Love"
+            android:parentActivityName=".SocialPeople"
+            />
+        <activity android:name=".Boys"
+            android:parentActivityName=".SocialPeople"/>
+        <activity android:name=".Girls"
+            android:parentActivityName=".SocialPeople"/>
+        <activity android:name=".Selfies"
+            android:parentActivityName=".SocialPeople"/>
+        <activity android:name=".GeneralSocial"
+            android:parentActivityName=".SocialPeople"/>
+        <activity android:name=".SocialPeople"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".VSCOII"
+            android:parentActivityName=".Urban"/>
+        <activity android:name=".VSCO"
+            android:parentActivityName=".Urban"/>
+        <activity android:name=".SteelArt"
+            android:parentActivityName=".Urban"/>
+        <activity android:name=".Architecture"
+            android:parentActivityName=".Urban"/>
+        <activity android:name=".Urban"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".Monkeys"
+            android:parentActivityName=".Animals"/>
+        <activity android:name=".Fish"
+            android:parentActivityName=".Animals"/>
+        <activity android:name=".Insects"
+            android:parentActivityName=".Animals"/>
+        <activity android:name=".Horses"
+            android:parentActivityName=".Animals"/>
+        <activity android:name=".Cats"
+            android:parentActivityName=".Animals"/>
+        <activity android:name=".Dogs"
+            android:parentActivityName=".Animals" />
+        <activity android:name=".GeneralAnimals"
+            android:parentActivityName=".Animals"/>
+        <activity android:name=".Animals"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".Winter"
+            android:parentActivityName=".WeatherSeasons"/>
+        <activity android:name=".Fall"
+            android:parentActivityName=".WeatherSeasons"/>
+        <activity android:name=".Summer"
+            android:parentActivityName=".WeatherSeasons"/>
+        <activity android:name=".Spring"
+            android:parentActivityName=".WeatherSeasons"/>
+        <activity android:name=".Snowing"
+            android:parentActivityName=".WeatherSeasons"/>
+        <activity android:name=".Raining"
+            android:parentActivityName=".WeatherSeasons"/>
+        <activity android:name=".Cloudy"
+            android:parentActivityName=".WeatherSeasons"/>
+        <activity android:name=".Sunny"
+            android:parentActivityName=".WeatherSeasons"/>
+        <activity android:name=".WeatherSeasons"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".Flowers"
+            android:parentActivityName=".Nature"/>
+        <activity android:name=".SunsetSunrise"
+            android:parentActivityName=".Nature"/>
+        <activity android:name=".Beach"
+            android:parentActivityName=".Nature"/>
+        <activity android:name=".GeneralNature"
+            android:parentActivityName=".Nature"/>
+        <activity android:name=".Nature"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity android:name=".Kpop"
+            android:parentActivityName=".Entertainment"/>
+        <activity android:name=".Disney"
+            android:parentActivityName=".Entertainment"/>
+        <activity android:name=".Anime"
+            android:parentActivityName=".Entertainment"/>
+        <activity android:name=".VideoGames"
+            android:parentActivityName=".Entertainment"/>
+        <activity android:name=".Books"
+            android:parentActivityName=".Entertainment"/>
+        <activity android:name=".Movies"
+            android:parentActivityName=".Entertainment"/>
+        <activity android:name=".Music"
+            android:parentActivityName=".Entertainment"/>
+        <activity android:name=".Entertainment"
+            android:parentActivityName=".CategoryActivity"/>
+        <activity
+            android:name=".Piercings"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Tattoos"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Sneakers"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".HighHeels"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Earnings"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Bracelets"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Jewellery"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Makeup"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Hair"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Nails"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".OOTD"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".FashionBoys"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".FashionGirls"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".GeneralFashion"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Fashion"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".FastFood"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Tea"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Coffee"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Drinks"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Dessert"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".FoodGeneral"
+            android:parentActivityName=".Food" />
+        <activity
+            android:name=".Food"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".Holiday"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".NewYearsDay"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".Christmas"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".BlackFriday"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".FireWork"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".Halloween"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".ThanksGiving"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".Wedding"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".Birthday"
+            android:parentActivityName=".HolidaysCelebrations" />
+        <activity
+            android:name=".HolidaysCelebrations"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".Mom"
+            android:parentActivityName=".Family" />
+        <activity
+            android:name=".Brother"
+            android:parentActivityName=".Family" />
+        <activity
+            android:name=".Sister"
+            android:parentActivityName=".Family" />
+        <activity
+            android:name=".Dad"
+            android:parentActivityName=".Family" />
+        <activity
+            android:name=".Kids"
+            android:parentActivityName=".Family" />
+        <activity
+            android:name=".Babies"
+            android:parentActivityName=".Family" />
+        <activity
+            android:name=".GeneralFamily"
+            android:parentActivityName=".Family" />
+        <activity
+            android:name=".Family"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".Instagram"
+            android:parentActivityName=".Art" />
+        <activity
+            android:name=".Abstract"
+            android:parentActivityName=".Art" />
+        <activity
+            android:name=".Minimalism"
+            android:parentActivityName=".Art" />
+        <activity
+            android:name=".BlackWhite"
+            android:parentActivityName=".Art" />
+        <activity
+            android:name=".HDR"
+            android:parentActivityName=".Art" />
+        <activity
+            android:name=".Photography"
+            android:parentActivityName=".Art" />
+        <activity
+            android:name=".Artt"
+            android:parentActivityName=".Art" />
+        <activity
+            android:name=".Art"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".TenthPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".NinethPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".EigthPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".SeventhPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".SixthPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".FifthPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".FourthPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".ThirdPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".SecondPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".MostPopular"
+            android:parentActivityName=".Popular" />
+        <activity
+            android:name=".Popular"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".AllHashtags"
+            android:parentActivityName=".CategoryActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
